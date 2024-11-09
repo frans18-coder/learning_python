@@ -1,0 +1,7 @@
+x = int(input("Masukkan angka x: "))
+y = int(input("Masukkan angka y: "))
+z = int(input("Masukkan angka z: "))
+terbesar = max(x, y, z)
+terkecil = min(x, y, z)
+print(f"Nilai terbesar: {terbesar}")
+print(f"Nilai terkecil: {terkecil}")
