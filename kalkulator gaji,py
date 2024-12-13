@@ -1,0 +1,7 @@
+def hitung_gaji(gaji_kotor, pajak):
+    return gaji_kotor - (gaji_kotor * pajak / 100)
+
+gaji_kotor = float(input("Masukkan gaji kotor: "))
+pajak = float(input("Masukkan pajak (%): "))
+
+print("Gaji bersih:", hitung_gaji(gaji_kotor, pajak))
